@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BancoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-04T18:58:00" hostname="LAPTOP-CMJCSLG8" time="0.038">
+  <properties/>
+  <testcase name="transaccionDepositoTest()" classname="BancoTest" time="0.028"/>
+  <testcase name="transaccionRetiroVerdaderoTest()" classname="BancoTest" time="0.001"/>
+  <testcase name="transaccionConsultarSaldoTest()" classname="BancoTest" time="0.007"/>
+  <testcase name="transaccionRetiroFalsoTest()" classname="BancoTest" time="0.001"/>
+  <system-out><![CDATA[El saldo es de 10000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
