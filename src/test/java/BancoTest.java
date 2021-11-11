@@ -29,6 +29,6 @@ public class BancoTest {
     @Test
     public void transaccionConsultarSaldoTest(){
         boolean exito = banco.Transaccion(3,1000);
-        assertFalse(exito);
+        assertTrue(exito);
     }
 }
