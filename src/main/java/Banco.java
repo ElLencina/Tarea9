@@ -30,7 +30,7 @@ public class Banco {
                     operacionRealizada = false;
                 else {
                     saldo = resultado;
-                    operacionRealizada = true;
+                    operacionRealizada = false;
                 }
 
                 return  operacionRealizada;
