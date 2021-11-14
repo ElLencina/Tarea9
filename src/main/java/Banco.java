@@ -27,7 +27,7 @@ public class Banco {
         int resultado = saldo - monto;
 
                 if(resultado<0)
-                    operacionRealizada = false;
+                    operacionRealizada = true;
                 else {
                     saldo = resultado;
                     operacionRealizada = false;
