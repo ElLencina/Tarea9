@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh'chmod -R 777 /var/lib/jenkins'
                 sh'./gradlew test'
             }
         }
